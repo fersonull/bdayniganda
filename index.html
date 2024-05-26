@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="in.css">
+    <title>Happy Birthday!</title>
+</head>
+<body>
+    <form action="bd.html">
+        <img width="94" height="94" src="https://img.icons8.com/3d-fluency/94/gift.png" alt="gift"/>
+        <div class="text">
+            <h3>Enter Password</h3>
+        </div>
+        <input type="text" placeholder="clue: ako hehe" class="password">
+        <input type="submit" value="Enter" class="submit">
+    </form>
+
+    <div class="error-popup">
+        <img width="94" height="94" src="https://img.icons8.com/3d-fluency/94/frowning-face-1.png" alt="frowning-face-1"/>
+        <h3>Wrong Password</h3>
+        <p>may clue na e</p>
+        <button class="hide wrong" onclick="hidePop()">Try Again</button>
+    </div>
+    
+    <div class="error-popup correct">
+        <img width="94" height="94" src="https://img.icons8.com/?size=100&id=h3aBbNDuWHwD&format=png&color=000000" alt="inlove-face-1"/>
+        <h3>Correct Password!</h3>
+        <p>naks naman</p>
+        <button class="hide valid" onclick="nextPage()">Next Page</button>
+    </div>
+    <script src="bday.js"></script>
+</body>
+</html>
