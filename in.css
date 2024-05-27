@@ -126,10 +126,11 @@ form .submit {
     transform: translate(-50%, -50%) scale(0.6) rotate(-180deg);
     top: 200%;
     left: 50%;  
-    transition: ease 0.3s;
     text-align: left;
     padding: 20px;
     font-size: 0.9rem;
+    box-shadow: 0 20px 45px rgba(120, 76, 10, 0.25);
+    transition: ease 0.3s;
 }
 
 .letter-card .image {
